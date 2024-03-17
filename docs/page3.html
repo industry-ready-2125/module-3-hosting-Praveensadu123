@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="css/page3.css">
+</head>
+<body>
+
+    <div id="topFrame">
+        <!-- Logo and title go here -->
+        <img src="images/pfl.jpg" alt="Your Logo" height="100">
+        <h1>Praveen's Free Learning</h1>
+    </div>
+
+    <div id="leftFrame">
+        <!-- Links to different web pages go here -->
+        <ul>
+            <li><a href="page1.html">Registration</a></li>
+            <br>
+            <li><a href="page2.html">Login</a></li>
+            <br>
+            <li><a href="page3.html">Contact Us</a></li>
+            <br>
+            <!-- Add more links as needed -->
+        </ul>
+    </div>
+
+    <div id="rightFrame">
+        <div  class="icon">
+            <div onclick="location.href = 'https://maps.app.goo.gl/2RD5usfcHWG1e5V8A'" class="option">
+                <ion-icon name="location" onclick="page1.html"></ion-icon>
+                <p >our head office location</p>
+            </div>
+            <div class="option">
+                <ion-icon name="call"></ion-icon>
+                <p>(+91) 8522806635</p>
+            </div>
+            <div onclick="location.href = 'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfmqxJTCzHpZRrqSXnPMsBBcSmGcmgpWRJrThnjpdGxvBLnwKDTpdxVCsQJbvBttNDBHgB'" class="option">
+                <ion-icon name="mail"></ion-icon>
+                <p>21131a4236@gvpce.ac.in</p>
+            </div>
+        </div>
+        <div class="message">
+            <input type="message" name="search_bar" placeholder="send your quaries....." required>
+            <ion-icon name="send"></ion-icon>
+            
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
